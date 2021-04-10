@@ -21,3 +21,4 @@ sudo apt install python3-pip --assume-yes
 sudo pip3 install pywinrm
 sudo ansible-galaxy collection install ansible.windows
 sudo ansible-galaxy collection install community.windows
+sudo ansible-galaxy collection install azure.azcollection
