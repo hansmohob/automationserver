@@ -22,3 +22,4 @@ sudo pip3 install pywinrm
 sudo ansible-galaxy collection install ansible.windows
 sudo ansible-galaxy collection install community.windows
 sudo ansible-galaxy collection install azure.azcollection
+sudo pip3 install pywinrm[credssp]
