@@ -1,9 +1,6 @@
 #!/bin/bash
 # cloned from https://github.com/globalbao/terraform-azurerm-ansible-linux-vm
 
-# Change directory to user home
-cd /home/localadmin
-
 # Upgrade all packages that have available updates and remove old ones.
 sudo apt-get update
 sudo apt upgrade -y
