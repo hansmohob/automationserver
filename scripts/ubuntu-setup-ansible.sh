@@ -22,3 +22,7 @@ sudo ansible-galaxy collection install azure.azcollection
 sudo pip3 install pywinrm[credssp]
 sudo pip3 install msrest msrestazure
 sudo pip3 install 'ansible[azure]'
+
+#create folder structure
+
+sudo md /etc/ansible/group_vars
