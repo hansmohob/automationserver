@@ -25,4 +25,4 @@ sudo pip3 install 'ansible[azure]'
 
 #create folder structure
 
-sudo md /etc/ansible/group_vars
+sudo mdir /etc/ansible/group_vars
