@@ -23,10 +23,10 @@ sudo pip3 install pywinrm[credssp]
 sudo pip3 install msrest msrestazure
 sudo pip3 install 'ansible[azure]'
 
-#create folder structure
+#create folder structure and secure
 sudo groupadd grpsecansadmin
 usermod -a -G grpsecansadmin localadmin
 usermod -a -G grpsecansadmin root
-
 sudo mkdir /etc/ansible/group_vars
 sudo chgrp grpsecansadmin /etc/ansible/group_vars
+sudo chmod g+rwx /etc/ansible/group_vars
