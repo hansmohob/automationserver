@@ -2,9 +2,9 @@
 # cloned from https://github.com/globalbao/terraform-azurerm-ansible-linux-vm
 
 # Upgrade all packages that have available updates and remove old ones.
-sudo apt-get update
-sudo apt upgrade -y
-sudo apt autoremove --assume-yes
+# sudo apt-get update
+# sudo apt upgrade -y
+# sudo apt autoremove --assume-yes
 
 # Install azcli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
