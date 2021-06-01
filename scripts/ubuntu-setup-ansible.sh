@@ -26,6 +26,7 @@ sudo pip3 install 'ansible[azure]'
 #create folder structure
 sudo groupadd grpsecansadmin
 usermod -a -G grpsecansadmin localadmin
+usermod -a -G grpsecansadmin root
 
 sudo mkdir /etc/ansible/group_vars
-sudo chmod
+sudo chgrp grpsecansadmin /etc/ansible/group_vars
