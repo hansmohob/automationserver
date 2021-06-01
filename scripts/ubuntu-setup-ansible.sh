@@ -7,7 +7,7 @@
 # sudo apt autoremove --assume-yes
 
 # Install azcli
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+# curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 # Install ansible and dependencies
 # sudo apt update
