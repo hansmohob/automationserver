@@ -46,4 +46,4 @@ sudo chmod g+rwx /etc/ansible/group_vars
 sudo chgrp grpsecansadmin /etc/ansible
 sudo chmod g+rwx /etc/ansible
 sudo mv /etc/ansible/ansible.cfg /etc/ansible/ansible.cfgold
-mkdir ~/.azure
+mkdir /home/localadmin/.azure
