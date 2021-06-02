@@ -34,6 +34,7 @@ sudo ansible-galaxy collection install azure.azcollection
 wget https://raw.githubusercontent.com/ansible-collections/azure/dev/requirements-azure.txt
 sudo apt install python3-pip --assume-yes
 sudo pip3 install -r requirements-azure.txt
+sudo pip3 install pywinrm[credssp]
 
 #create folder structure and secure
 sudo groupadd grpsecansadmin
